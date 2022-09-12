@@ -28,27 +28,13 @@
   height: 60px;
 }
 .secOne {
+  padding: 40px 0;
   background-color: var(--colorSix);
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.secOne > h1,
-.secOne > ul {
   color: white;
-}
-.secOne > ul {
   font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.secOne li {
-  margin: 4px;
-  margin-right: 25%;
-  width: fit-content;
 }
 /* whatsapp */
 .whatsapp {
@@ -84,7 +70,7 @@
   margin-left: 10px;
 }
 /* Media Query */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .secOne > ul {
     width: 50% !important;
     padding: 0;
@@ -97,11 +83,4 @@
     padding: 0;
     font-size: 16px;
   }
-}
-@media (max-width: 768px) {
-  .secOne > ul {
-    width: 100% !important;
-    padding: 0;
-    font-size: 16px;
-  }
-}
+} */
